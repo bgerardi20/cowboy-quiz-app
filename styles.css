@@ -1,0 +1,65 @@
+h1 {
+	font-size: 60px;
+	text-align: center;
+	color: black;
+	text-shadow: 0.5px 0.5px black;
+}
+
+form {
+	padding: 10px 30px 30px 30px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	background-color: silver;
+	height: 170px;
+	width: 75%;
+}
+
+body { 
+	background: url("http://i1126.photobucket.com/albums/l601/brendangerardi20/15425496924_824e5c050e_b_zpsy81o0zrl.jpg") no-repeat center center fixed; 
+	background-size: 100% 100%;
+	margin: auto;
+}
+
+h3 {
+	color: blue;
+	font-family: "Courier New", serif;
+}
+
+.answers {
+	color: black;
+	font-family: "Courier New", serif;
+}
+
+.header {
+	background-color: blue;
+}
+
+section, footer {
+	padding: 10px 30px 30px 30px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	background-color: #0a0a5c;
+	width: 75%;
+	color: white;
+	text-align: center;
+}
+
+.left {
+	float: left;
+	color: white;
+	text-shadow: .5px .5px black;
+}
+
+.right {
+	float: right;
+	color: white;
+	text-shadow: .5px .5px black;
+}
+
+.start-section, .head-container{
+	border: 2px solid white;
+}
+
+
