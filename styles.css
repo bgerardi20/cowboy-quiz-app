@@ -16,8 +16,8 @@ form {
 }
 
 body { 
-	background: url("http://i1126.photobucket.com/albums/l601/brendangerardi20/15425496924_824e5c050e_b_zpsy81o0zrl.jpg") no-repeat center center fixed; 
-	background-size: 100% 100%;
+	background: url("background.jpg") no-repeat center center fixed; 
+	background-size: cover;
 	margin: auto;
 }
 
