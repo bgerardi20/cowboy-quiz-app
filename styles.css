@@ -1,65 +1,160 @@
-h1 {
-	font-size: 60px;
-	text-align: center;
-	color: black;
-	text-shadow: 0.5px 0.5px black;
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    /*The box-sizing property is used to tell the browser what the sizing properties (width and height) should include border-box.*/
+    box-sizing: border-box;
+
+    /*reset Chrome user agent styles*/
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-before: 0px;
+    -webkit-padding-after: 0px;
+    -webkit-padding-start: 0px;
+    -webkit-padding-end: 0px;
 }
 
-form {
-	padding: 10px 30px 30px 30px;
-	margin-left: auto;
-	margin-right: auto;
-	display: block;
-	background-color: silver;
-	height: 170px;
-	width: 75%;
+body {
+    background: url("background.jpg") no-repeat center center fixed;
+    background-size: cover;
+    margin: auto;
+
+    font-family: "Courier New", serif;
 }
 
-body { 
-	background: url("background.jpg") no-repeat center center fixed; 
-	background-size: cover;
-	margin: auto;
+header h1 {
+    font-size: 60px;
+    text-align: center;
+    color: black;
+    text-shadow: 0.5px 0.5px black;
+    font-family: "Arial", sans-serif;
 }
 
-h3 {
-	color: blue;
-	font-family: "Courier New", serif;
+section {
+    margin-top: 1rem;
+    padding: 10px 30px 30px 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-color: #0a0a5c;
+    width: 75%;
+    color: white;
+    text-align: center;
 }
 
-.answers {
-	color: black;
-	font-family: "Courier New", serif;
+section button {
+    padding: 0.5rem 1rem;
+    margin: 1rem;
+    font-size: 0.9rem;
+    background-color: #eee;
+    border-radius: 5px;
+    font-family: "Arial", sans-serif;
 }
 
-.header {
-	background-color: blue;
+section h4 {
+    /* color: black; */
+    /* font-family: "Courier New", serif; */
+    /* margin-right: 0.5rem; */
+    margin: 1rem 0;
+    font-size: 0.9rem;
+    color: #ddd;
+    font-family: "Arial", sans-serif;
 }
 
-section, footer {
-	padding: 10px 30px 30px 30px;
-	margin-left: auto;
-	margin-right: auto;
-	display: block;
-	background-color: #0a0a5c;
-	width: 75%;
-	color: white;
-	text-align: center;
+section.start-section,
+section.head-container {
+    border: 2px solid white;
 }
 
-.left {
-	float: left;
-	color: white;
-	text-shadow: .5px .5px black;
+section.head-container div {
+    font-family: "Arial", sans-serif;
 }
 
-.right {
-	float: right;
-	color: white;
-	text-shadow: .5px .5px black;
+section.head-container .left {
+    float: left;
+    color: white;
+    text-shadow: .5px .5px black;
 }
 
-.start-section, .head-container{
-	border: 2px solid white;
+section.head-container .right {
+    float: right;
+    color: white;
+    text-shadow: .5px .5px black;
+}
+
+section.start-section h2 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-family: "Arial", sans-serif;
+}
+
+main form {
+    padding: 10px 30px 30px 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-color: silver;
+    /*    height: 170px;*/
+    width: 75%;
+}
+
+main form h3 {
+    color: blue;
+    margin-bottom: 1rem;
+    font-family: "Arial", sans-serif;
+}
+
+main section.start-section h2 {}
+
+
+
+main form div.options .answers {
+    color: black;
+    margin-right: 0.5rem;
 }
 
 
+
+/*responsive styles (media queries)*/
+
+/*ipad lanscape / small laptop*/
+
+@media only screen and (max-width: 1024px) {
+    /* acting like an IF statement, the media query is a set of conditions in which the containing css will be applied
+    for example the statament above says: IF the media on which this CSS is going to used is SCREEN (Mobiles, Tables, Laptops, Desktops or Projectors) and the maximum resolution of that device is 1024px, THEN apply the body color blue for all the text
+    */
+    body {
+        color: blue;
+    }
+}
+
+
+/*ipad potrait*/
+
+@media only screen and (max-width: 768px) {
+    body {
+        color: red;
+    }
+}
+
+
+/*iPhone landscape*/
+
+@media only screen and (max-width: 480px) {
+    body {
+        color: green;
+    }
+}
+
+
+/*iPhone portrait*/
+
+@media only screen and (max-width: 320px) {
+    body {
+        color: purple;
+    }
+}
