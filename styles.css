@@ -35,7 +35,7 @@ header h1 {
 
 section {
     margin-top: 1rem;
-    padding: 10px 30px 30px 30px;
+    padding: 20px 30px;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -73,17 +73,16 @@ section.head-container div {
     font-family: "Arial", sans-serif;
 }
 
-section.head-container .left {
-    float: left;
+
+section.head-container .left,
+section.head-container .right {
+    display: inline-block;
+    width: 48%;
     color: white;
     text-shadow: .5px .5px black;
+    vertical-align: top;
 }
 
-section.head-container .right {
-    float: right;
-    color: white;
-    text-shadow: .5px .5px black;
-}
 
 section.start-section h2 {
     margin-top: 1rem;
@@ -110,51 +109,21 @@ main form h3 {
 
 main section.start-section h2 {}
 
-
-
 main form div.options .answers {
     color: black;
     margin-right: 0.5rem;
 }
 
-
-
 /*responsive styles (media queries)*/
-
-/*ipad lanscape / small laptop*/
-
-@media only screen and (max-width: 1024px) {
-    /* acting like an IF statement, the media query is a set of conditions in which the containing css will be applied
-    for example the statament above says: IF the media on which this CSS is going to used is SCREEN (Mobiles, Tables, Laptops, Desktops or Projectors) and the maximum resolution of that device is 1024px, THEN apply the body color blue for all the text
-    */
-    body {
-        color: blue;
-    }
-}
-
 
 /*ipad potrait*/
 
 @media only screen and (max-width: 768px) {
-    body {
-        color: red;
-    }
-}
 
-
-/*iPhone landscape*/
-
-@media only screen and (max-width: 480px) {
-    body {
-        color: green;
-    }
-}
-
-
-/*iPhone portrait*/
-
-@media only screen and (max-width: 320px) {
-    body {
-        color: purple;
+    section.head-container .left,
+    section.head-container .right {
+        display: block;
+        width: 100%;
+        margin: 0.5 auto;
     }
 }
