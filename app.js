@@ -43,6 +43,51 @@ let myQuestions = [
         questionCorrectAnswer: 3,
         correctDetails: 'Demarco Murray set the Dallas Cowboys single-season rushing record on December 28th, 2014, passing Emmit Smith for most rushing yards gained in one season.'
 
+    },
+
+    //question 6
+    {
+        questionText: 'How many Dallas Cowboys players/front-office-personnel are currently in the NFL Hall of Fame?',
+        questionChoices: ['16', '24', '20', '10'],
+        questionCorrectAnswer: 0,
+        correctDetails: 'There are 16 former Dallas Cowboy players or front office personnel in the NFL Hall of Fame, currently.'
+
+    },
+
+    //question 7
+    {
+        questionText: 'What former Dallas Cowboy is currently a news broadcaster for NFL games?',
+        questionChoices: ['Tony Romo', 'Tony Romo AND Troy Aikman', 'Troy Aikman', 'None'],
+        questionCorrectAnswer: 1,
+        correctDetails: 'Tony Romo is currently in his first season as a CBS broadcaster for the NFL, and Troy Aikman has been working on Fox broadcasting team since 2001.'
+
+    },
+
+    //question 8
+    {
+        questionText: 'What was the maximum seating capacity for the former Texas Stadium?',
+        questionChoices: ['86,908', '69,675', '70,101', '65,675'],
+        questionCorrectAnswer: 3,
+        correctDetails: 'The previous stadium for the Dallas Cowboys, Texas Stadium, could sit 65,675 people in its capacity.'
+
+    },
+
+    //question 9
+    {
+        questionText: 'Which Dallas Cowboys wide reciever attended Oklahoma State University(OSU), and was drafted in the 2010 NFL draft. This player also wears the #88 jersey, and makes an "X" with his arms after he scores a touchdown.',
+        questionChoices: ['Cole Beasley', 'Michael Irvin', 'Dez Bryant', 'Miles Austin'],
+        questionCorrectAnswer: 2,
+        correctDetails: 'The Dallas Cowboys drafted Dez Bryant with the 24th overall pick, of the 2010 NFL draft.'
+
+    },
+
+    //question 10
+    {
+        questionText: 'In one of the largest and most controversial trades of the 20th century, the Dallas Cowboys traded Herschel Walker to what team?',
+        questionChoices: ['Tony Romo', 'Herschel Walker', 'Michael Irvin', 'Emmitt Smith'],
+        questionCorrectAnswer: 1,
+        correctDetails: 'On October 13, 1989, the Dallas Cowboys traded running back, Herschel Walker, to the Vikings for 4 veteran players and 13 future draft picks. The huge number of draft picks the Cowboys got over the next four years, helped them build the powerhouse team they had during the first half of the 1990s.'
+
     }
 ];
 
