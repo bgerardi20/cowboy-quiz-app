@@ -60,7 +60,7 @@ section h4 {
     /* margin-right: 0.5rem; */
     margin: 1rem 0;
     font-size: 0.9rem;
-    color: #ddd;
+    color: rgb(154, 147, 147);
     font-family: "Arial", sans-serif;
 }
 
@@ -107,7 +107,6 @@ main form h3 {
     font-family: "Arial", sans-serif;
 }
 
-main section.start-section h2 {}
 
 main form div.options .answers {
     color: black;
